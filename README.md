@@ -25,17 +25,6 @@ El trabajo parte del **notebook guía del profesor** y sigue la metodología **U
 
 El detalle de cada cambio está en [`MODIFICACIONES.md`](Actividad%201/MODIFICACIONES.md).
 
-## 📁 Contenido
-
-```
-Actividad 1/
-├── simulacion_01.ipynb              # Notebook guía original (sin cambios)
-├── simulacion_01_mejorado.ipynb     # Versión mejorada, ejecutada con sus salidas
-├── MODIFICACIONES.md                # Cambios y aportes, uno por uno
-├── Giraldo_Johnatan_Montecarlo.docx # Documento técnico
-├── requirements.txt
-└── resultados/                      # Gráficos y datos generados por el notebook
-```
 
 ## ▶️ Cómo ejecutar
 
