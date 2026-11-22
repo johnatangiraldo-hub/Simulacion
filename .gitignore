@@ -1,1 +1,10 @@
 .DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Material interno del equipo (no se publica)
+Actividad 2/docs/
+Actividad 2/skills/
+Actividad 2/materiales/
+Actividad 2/articulo/articulo_version_inicial.pdf

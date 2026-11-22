@@ -1,0 +1,32 @@
+\begin{tabular}{llrrrrr}
+\toprule
+Escenario & Métrica & Media & D.E. & Mín. & Máx. & IC95\,\% \\
+\midrule
+E1 nominal & Exactitud Viterbi & 0,960 & 0,010 & 0,937 & 0,983 & [0,958; 0,962] \\
+ & Exactitud filtrado & 0,953 & 0,011 & 0,923 & 0,979 & [0,951; 0,955] \\
+ & Exactitud trivial (siempre S0) & 0,913 & 0,025 & 0,830 & 0,958 & [0,908; 0,918] \\
+ & F1 neutralización (S2) & 0,507 & 0,137 & 0,128 & 0,778 & [0,480; 0,534] \\
+ & Log-verosim. por obs. & -0,255 & 0,040 & -0,356 & -0,169 & [-0,263; -0,247] \\
+ & Error $\|\hat A-A\|_F$ & 0,799 & 0,575 & 0,070 & 1,910 & [0,685; 0,913] \\
+ & Error $\|\hat B-B\|_F$ & 0,532 & 0,373 & 0,048 & 1,300 & [0,458; 0,606] \\
+ & Iteraciones Baum-Welch & 158,0 & 58,4 & 24,0 & 200,0 & [146,4; 169,6] \\
+\midrule
+E2 lluviosa & Exactitud Viterbi & 0,950 & 0,012 & 0,919 & 0,981 & [0,947; 0,952] \\
+ & Exactitud filtrado & 0,939 & 0,012 & 0,906 & 0,969 & [0,937; 0,942] \\
+ & Exactitud trivial (siempre S0) & 0,816 & 0,032 & 0,732 & 0,882 & [0,809; 0,822] \\
+ & F1 neutralización (S2) & 0,644 & 0,077 & 0,392 & 0,800 & [0,628; 0,659] \\
+ & Log-verosim. por obs. & -0,358 & 0,039 & -0,442 & -0,274 & [-0,366; -0,350] \\
+ & Error $\|\hat A-A\|_F$ & 0,626 & 0,574 & 0,028 & 1,722 & [0,512; 0,740] \\
+ & Error $\|\hat B-B\|_F$ & 0,310 & 0,226 & 0,040 & 1,038 & [0,265; 0,355] \\
+ & Iteraciones Baum-Welch & 135,8 & 63,0 & 24,0 & 200,0 & [123,3; 148,3] \\
+\midrule
+E3 ruidoso & Exactitud Viterbi & 0,740 & 0,022 & 0,690 & 0,782 & [0,736; 0,745] \\
+ & Exactitud filtrado & 0,736 & 0,019 & 0,686 & 0,777 & [0,732; 0,740] \\
+ & Exactitud trivial (siempre S0) & 0,545 & 0,028 & 0,484 & 0,602 & [0,539; 0,550] \\
+ & F1 neutralización (S2) & 0,270 & 0,064 & 0,111 & 0,428 & [0,257; 0,283] \\
+ & Log-verosim. por obs. & -1,296 & 0,033 & -1,400 & -1,216 & [-1,303; -1,290] \\
+ & Error $\|\hat A-A\|_F$ & 0,735 & 0,382 & 0,092 & 1,385 & [0,659; 0,810] \\
+ & Error $\|\hat B-B\|_F$ & 0,317 & 0,165 & 0,109 & 0,797 & [0,285; 0,350] \\
+ & Iteraciones Baum-Welch & 176,5 & 33,7 & 76,0 & 200,0 & [169,8; 183,2] \\
+\bottomrule
+\end{tabular}

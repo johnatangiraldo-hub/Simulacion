@@ -1,0 +1,21 @@
+{
+  "sha256_corrida1": "6d5daf53631548e2a409c5272b97c404585e4f5b65f089318ed19b4e245315cf",
+  "sha256_corrida2": "6d5daf53631548e2a409c5272b97c404585e4f5b65f089318ed19b4e245315cf",
+  "identicas": true,
+  "acc_viterbi_E1_otras_semillas": [
+    0.9587916666666667,
+    0.9584166666666665,
+    0.9575833333333333,
+    0.961125,
+    0.9565416666666667
+  ],
+  "sd_entre_semillas": 0.0017071642341093534,
+  "origen_parametros_nominales": "estimado con datos reales OpenF1",
+  "entorno": {
+    "python": "3.13.18",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,43 @@
+                               modelo metrica  valor  ic95_inf  ic95_sup
+0                           Tasa base     AUC  0.500     0.500     0.500
+1                           Tasa base      AP  0.015     0.011     0.019
+2                           Tasa base   Brier  0.015     0.011     0.019
+3                           Tasa base     BSS  0.000     0.000     0.000
+4               Tabla por observacion     AUC  0.593     0.489     0.689
+5               Tabla por observacion      AP  0.060     0.034     0.100
+6               Tabla por observacion   Brier  0.014     0.011     0.018
+7               Tabla por observacion     BSS  0.037    -0.013     0.085
+8                      HMM sin lluvia     AUC  0.628     0.525     0.729
+9                      HMM sin lluvia      AP  0.080     0.043     0.135
+10                     HMM sin lluvia   Brier  0.014     0.010     0.018
+11                     HMM sin lluvia     BSS  0.049     0.013     0.085
+12         HMM con lluvia (3 niveles)     AUC  0.528     0.424     0.621
+13         HMM con lluvia (3 niveles)      AP  0.032     0.013     0.052
+14         HMM con lluvia (3 niveles)   Brier  0.015     0.011     0.019
+15         HMM con lluvia (3 niveles)     BSS -0.003    -0.011     0.003
+16  HMM lluvia binaria (exploratorio)     AUC  0.527     0.424     0.620
+17  HMM lluvia binaria (exploratorio)      AP  0.032     0.013     0.052
+18  HMM lluvia binaria (exploratorio)   Brier  0.015     0.011     0.019
+19  HMM lluvia binaria (exploratorio)     BSS -0.003    -0.011     0.003
+{
+ "sin_lluvia": {
+  "vueltas": 3795,
+  "inicios": 51.0,
+  "tasa": 0.013438735177865613,
+  "ic95": [
+   0.010236254681673815,
+   0.01762529132224485
+  ]
+ },
+ "con_lluvia": {
+  "vueltas": 134,
+  "inicios": 7.0,
+  "tasa": 0.05223880597014925,
+  "ic95": [
+   0.025531676904570998,
+   0.1039038490904842
+  ]
+ },
+ "odds_ratio": 0.2471382783882784,
+ "p_fisher": 0.0032283471437862354
+}
