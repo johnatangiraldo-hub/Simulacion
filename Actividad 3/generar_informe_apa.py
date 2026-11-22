@@ -23,7 +23,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 from analisis_figuras import ETIQ, TIPOS, calcular
 
-REPO = "https://github.com/johnatangiraldo-hub/Simulacion/tree/feature/ActividadM3/Actividad%203"
+REPO = "https://github.com/luismvargasg/Simulacion/tree/feature/ActividadM3/Actividad%203"
 FUENTE = "Arial"
 
 
