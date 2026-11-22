@@ -1,0 +1,50 @@
+{
+  "replicas": 30,
+  "semilla_base": 20261122,
+  "modo": "condicional",
+  "cierre_minutos": 480.0,
+  "media_global_entrellegadas_teorica": 2.3979999999999997,
+  "escenarios": {
+    "A_3_mixtas": [
+      "Mixto",
+      "Mixto",
+      "Mixto"
+    ],
+    "B_1R_2P": [
+      "Retiro",
+      "Pago",
+      "Pago"
+    ],
+    "C_2R_1P": [
+      "Retiro",
+      "Retiro",
+      "Pago"
+    ],
+    "D_4_mixtas": [
+      "Mixto",
+      "Mixto",
+      "Mixto",
+      "Mixto"
+    ],
+    "E_2R_2P": [
+      "Retiro",
+      "Retiro",
+      "Pago",
+      "Pago"
+    ],
+    "F_1R_3P": [
+      "Retiro",
+      "Pago",
+      "Pago",
+      "Pago"
+    ],
+    "G_3R_1P": [
+      "Retiro",
+      "Retiro",
+      "Retiro",
+      "Pago"
+    ]
+  },
+  "regla": "menor número pendiente, luego finalización prevista, luego empate rotativo",
+  "cohorte": "llegados antes del cierre; se termina el servicio después del cierre"
+}
