@@ -1,0 +1,469 @@
+{
+  "teoria": {
+    "E_servicio": 3.6000000000000005,
+    "E_entrellegada": 4.65,
+    "rho": 0.7741935483870969,
+    "lambda": 0.2150537634408602,
+    "E_servicio2": 32.7,
+    "E_entrellegada2": 48.800000000000004,
+    "cs2": 1.5231481481481475,
+    "ca2": 1.2569083130997802
+  },
+  "criterio": {
+    "espera_media_max": 5.0,
+    "prob_espera_10_max": 0.1,
+    "utilizacion_max": 0.8
+  },
+  "welch": {
+    "replicas": 100,
+    "ventana_min": 10.0,
+    "media_movil_ventanas": 6,
+    "tolerancia": 0.1,
+    "indice_ventana": 21,
+    "L_min": 220.0,
+    "nivel_estable": 13.56045646056849
+  },
+  "replicas": {
+    "piloto": 10,
+    "media_piloto": 9.53793816349838,
+    "desv_piloto": 2.7930283803398632,
+    "n_requeridas": 44,
+    "n_final": 100,
+    "precision_relativa_objetivo": 0.1,
+    "precision_relativa_lograda": 0.07966410440488053
+  },
+  "punto1": {
+    "tabla": [
+      {
+        "cajero": "C1",
+        "usuarios_dia": 106.54,
+        "servicio_medio": 3.5949645113831066,
+        "ic_inf": 3.5071407149923624,
+        "ic_sup": 3.682788307773851,
+        "desv": 0.4426118641942229,
+        "min": 2.59172420939574,
+        "max": 4.77813503352776,
+        "espera_media": 12.71372448162663,
+        "sistema_medio": 16.308688993009742,
+        "utilizacion": 0.7605386847295555
+      },
+      {
+        "cajero": "C2",
+        "usuarios_dia": 109.8,
+        "servicio_medio": 3.578622971511091,
+        "ic_inf": 3.492348446464565,
+        "ic_sup": 3.6648974965576167,
+        "desv": 0.43480389066098707,
+        "min": 2.726542950033035,
+        "max": 4.677557851032489,
+        "espera_media": 14.720794723466142,
+        "sistema_medio": 18.299417694977233,
+        "utilizacion": 0.7785177657779992
+      },
+      {
+        "cajero": "C3",
+        "usuarios_dia": 107.01,
+        "servicio_medio": 3.5755416229740855,
+        "ic_inf": 3.4970183410019304,
+        "ic_sup": 3.6540649049462406,
+        "desv": 0.39573939689091997,
+        "min": 2.6565569359616696,
+        "max": 4.55832232050908,
+        "espera_media": 13.60936413259549,
+        "sistema_medio": 17.184905755569577,
+        "utilizacion": 0.7612940890338865
+      }
+    ],
+    "cajero_min": "C3",
+    "cajero_max": "C1",
+    "anova_F": 0.060360618747045444,
+    "anova_p": 0.9414365226032987,
+    "kruskal_H": 0.29311362126247786,
+    "kruskal_p": 0.8636766649244795,
+    "dif_max_min": [
+      0.01942288840902227,
+      -0.09571944061848145,
+      0.134565217436526
+    ]
+  },
+  "punto2": [
+    {
+      "tipo": "Rápido",
+      "promedio": 116.17,
+      "ic_inf": 113.57950954609703,
+      "ic_sup": 118.76049045390297,
+      "desv": 13.055479905218174,
+      "min": 83,
+      "max": 153,
+      "C1": 37.92,
+      "C2": 39.13,
+      "C3": 39.12,
+      "porcentaje": 0.2504365447215815,
+      "esperado_teorico": 116.12903225806451
+    },
+    {
+      "tipo": "Normal",
+      "promedio": 92.07,
+      "ic_inf": 89.8600636785021,
+      "ic_sup": 94.27993632149789,
+      "desv": 11.137574042651996,
+      "min": 67,
+      "max": 124,
+      "C1": 30.82,
+      "C2": 31.1,
+      "C3": 30.15,
+      "porcentaje": 0.19848233341237845,
+      "esperado_teorico": 92.90322580645162
+    },
+    {
+      "tipo": "Lento",
+      "promedio": 127.66,
+      "ic_inf": 125.20894744546437,
+      "ic_sup": 130.1110525545356,
+      "desv": 12.352744756947866,
+      "min": 95,
+      "max": 152,
+      "C1": 42.0,
+      "C2": 42.36,
+      "C3": 43.3,
+      "porcentaje": 0.27520641559057496,
+      "esperado_teorico": 127.74193548387098
+    },
+    {
+      "tipo": "Muy lento",
+      "promedio": 127.97,
+      "ic_inf": 125.98509069753074,
+      "ic_sup": 129.95490930246928,
+      "desv": 10.003489290232583,
+      "min": 95,
+      "max": 152,
+      "C1": 41.96,
+      "C2": 43.05,
+      "C3": 42.96,
+      "porcentaje": 0.2758747062754651,
+      "esperado_teorico": 127.74193548387098
+    },
+    {
+      "tipo": "Total",
+      "promedio": 463.87,
+      "ic_inf": 458.9206013948553,
+      "ic_sup": 468.8193986051447,
+      "desv": 24.943837926531085,
+      "min": 383,
+      "max": 514,
+      "C1": 152.70000000000002,
+      "C2": 155.64,
+      "C3": 155.53,
+      "porcentaje": 1.0,
+      "esperado_teorico": 464.51612903225805
+    }
+  ],
+  "punto3": {
+    "tabla": [
+      {
+        "escenario": "A_3_actual",
+        "cajeros": 3,
+        "regla": "propio",
+        "espera_media": 13.917178621111201,
+        "ic_inf": 12.808479050417628,
+        "ic_sup": 15.025878191804775,
+        "espera_p95": 44.47799641346462,
+        "prob_espera_10": 0.4500929263355524,
+        "sistema_medio": 17.49734095757905,
+        "utilizacion": 0.7667835131804803,
+        "ahorro_vs_actual": 0.0,
+        "ahorro_ic_inf": 0.0,
+        "ahorro_ic_sup": 0.0,
+        "sistema_Rápido": 15.953647070969941,
+        "sistema_Normal": 18.14525591182878,
+        "sistema_Lento": 17.586041932274792,
+        "sistema_Muy lento": 18.375619858016748,
+        "cumple": false
+      },
+      {
+        "escenario": "B_4_cajeros",
+        "cajeros": 4,
+        "regla": "aleatoria",
+        "espera_media": 6.252954521856788,
+        "ic_inf": 5.834893883616652,
+        "ic_sup": 6.671015160096924,
+        "espera_p95": 26.576091829354972,
+        "prob_espera_10": 0.22870571051470645,
+        "sistema_medio": 9.833116858324633,
+        "utilizacion": 0.5772828783375547,
+        "ahorro_vs_actual": 7.664224099254415,
+        "ahorro_ic_inf": 6.749550902555236,
+        "ahorro_ic_sup": 8.578897295953595,
+        "sistema_Rápido": 7.542106622969568,
+        "sistema_Normal": 9.49538249146619,
+        "sistema_Lento": 10.185403374859556,
+        "sistema_Muy lento": 11.836810722035777,
+        "cumple": false
+      },
+      {
+        "escenario": "C_5_cajeros",
+        "cajeros": 5,
+        "regla": "aleatoria",
+        "espera_media": 3.997031357261447,
+        "ic_inf": 3.749404006419273,
+        "ic_sup": 4.2446587081036204,
+        "espera_p95": 20.052138220398884,
+        "prob_espera_10": 0.14077994820318357,
+        "sistema_medio": 7.577193693729294,
+        "utilizacion": 0.4622020572730819,
+        "ahorro_vs_actual": 9.920147263849753,
+        "ahorro_ic_inf": 8.934541120730827,
+        "ahorro_ic_sup": 10.905753406968678,
+        "sistema_Rápido": 5.256285346738708,
+        "sistema_Normal": 7.24425661489637,
+        "sistema_Lento": 7.825382118072087,
+        "sistema_Muy lento": 9.69147050480729,
+        "cumple": false
+      },
+      {
+        "escenario": "D_3_fila_mas_corta",
+        "cajeros": 3,
+        "regla": "fila_mas_corta",
+        "espera_media": 4.710613872175068,
+        "ic_inf": 4.20827515017548,
+        "ic_sup": 5.212952594174656,
+        "espera_p95": 18.832262605306813,
+        "prob_espera_10": 0.16817485047170674,
+        "sistema_medio": 8.290776208642912,
+        "utilizacion": 0.7711596659584739,
+        "ahorro_vs_actual": 9.206564748936135,
+        "ahorro_ic_inf": 8.426830851301188,
+        "ahorro_ic_sup": 9.98629864657108,
+        "sistema_Rápido": 6.154321016941825,
+        "sistema_Normal": 8.019836683567,
+        "sistema_Lento": 8.511523380102398,
+        "sistema_Muy lento": 10.252942951779481,
+        "cumple": false
+      },
+      {
+        "escenario": "E_4_fila_mas_corta",
+        "cajeros": 4,
+        "regla": "fila_mas_corta",
+        "espera_media": 1.1555474090138955,
+        "ic_inf": 1.050700659005918,
+        "ic_sup": 1.260394159021873,
+        "espera_p95": 7.34706432459857,
+        "prob_espera_10": 0.033562845808079084,
+        "sistema_medio": 4.735709745481741,
+        "utilizacion": 0.5779941094824295,
+        "ahorro_vs_actual": 12.761631212097305,
+        "ahorro_ic_inf": 11.726785082452427,
+        "ahorro_ic_sup": 13.796477341742182,
+        "sistema_Rápido": 2.3619142385600065,
+        "sistema_Normal": 4.27791890278825,
+        "sistema_Lento": 5.068853458506167,
+        "sistema_Muy lento": 6.924574970418827,
+        "cumple": true
+      },
+      {
+        "escenario": "F_3_fila_unica",
+        "cajeros": 3,
+        "regla": "fila_unica",
+        "espera_media": 3.7568945936323934,
+        "ic_inf": 3.2693820372187234,
+        "ic_sup": 4.244407150046063,
+        "espera_p95": 13.425521676520912,
+        "prob_espera_10": 0.11800302770297369,
+        "sistema_medio": 7.337056930100239,
+        "utilizacion": 0.7710500971183925,
+        "ahorro_vs_actual": 10.16028402747881,
+        "ahorro_ic_inf": 9.341856949658238,
+        "ahorro_ic_sup": 10.97871110529938,
+        "sistema_Rápido": 5.002585105267259,
+        "sistema_Normal": 7.070959349974608,
+        "sistema_Lento": 7.644773867549912,
+        "sistema_Muy lento": 9.392227294414333,
+        "cumple": false
+      }
+    ],
+    "recomendada": "E_4_fila_mas_corta"
+  },
+  "punto4": {
+    "verificacion_mm1": {
+      "rho": {
+        "teorico": 0.7741935483870968,
+        "simulado": 0.7729205617362107,
+        "error_pct": -0.16442744240611393
+      },
+      "Wq": {
+        "teorico": 12.342857142857147,
+        "simulado": 12.392751749639835,
+        "error_pct": 0.4042387123597422
+      },
+      "W": {
+        "teorico": 15.942857142857148,
+        "simulado": 15.979110392465781,
+        "error_pct": 0.227394934821173
+      },
+      "Lq": {
+        "teorico": 2.6543778801843314,
+        "simulado": 2.6733693453336516,
+        "error_pct": 0.7154770724657072
+      },
+      "_diseno": {
+        "replicas": 30,
+        "horizonte_min": 12000.0,
+        "descarte_min": 1440.0
+      }
+    },
+    "calibracion": {
+      "tabla": [
+        {
+          "tipo": "Rápido",
+          "prop_teorica": 0.25,
+          "prop_simulada": 0.2504365447215815,
+          "servicio_teorico": 1.0,
+          "servicio_simulado": 1.0068696029941864,
+          "ks_p": 0.9495928420735927,
+          "llegada_teorica": 3.0,
+          "llegada_simulada": 2.9557092092649015
+        },
+        {
+          "tipo": "Normal",
+          "prop_teorica": 0.2,
+          "prop_simulada": 0.19848233341237848,
+          "servicio_teorico": 3.0,
+          "servicio_simulado": 3.0237853198579043,
+          "ks_p": 0.4159705959180593,
+          "llegada_teorica": 3.0,
+          "llegada_simulada": 3.0357899639481936
+        },
+        {
+          "tipo": "Lento",
+          "prop_teorica": 0.275,
+          "prop_simulada": 0.27520641559057496,
+          "servicio_teorico": 4.0,
+          "servicio_simulado": 3.9967363619800147,
+          "ks_p": 0.06994149445605102,
+          "llegada_teorica": 5.0,
+          "llegada_simulada": 4.997444653051581
+        },
+        {
+          "tipo": "Muy lento",
+          "prop_teorica": 0.275,
+          "prop_simulada": 0.2758747062754651,
+          "servicio_teorico": 6.0,
+          "servicio_simulado": 5.953965632722923,
+          "ks_p": 0.277940291652655,
+          "llegada_teorica": 7.0,
+          "llegada_simulada": 6.906355027746844
+        }
+      ],
+      "chi2": 0.7058247118608717,
+      "chi2_p": 0.8718330703648367
+    },
+    "validacion": {
+      "Wq_simulado": [
+        13.917178621111201,
+        12.808479050417628,
+        15.025878191804775
+      ],
+      "Wq_MM1": 12.342857142857147,
+      "Wq_PK_MG1": 15.571428571428578,
+      "Wq_Kingman_GG1": 17.15691987513008,
+      "rho_teorico": 0.7741935483870969,
+      "rho_simulado": 0.7667835131804803,
+      "Little_Lq": 2.980378109934252,
+      "Little_lambdaWq": 3.011501152121158,
+      "Wq_corrida_larga": 15.656863194364904,
+      "Little_error_pct": -1.033472697328519
+    }
+  },
+  "punto5": [
+    {
+      "indicador": "Espera media (min)",
+      "antes": 12.78499115813182,
+      "antes_ic": [
+        11.927391603064436,
+        13.642590713199205
+      ],
+      "despues": 13.917178621111201,
+      "despues_ic": [
+        12.808479050417628,
+        15.025878191804775
+      ],
+      "cambio_pct": 8.855598326004783
+    },
+    {
+      "indicador": "Percentil 95 de espera (min)",
+      "antes": 43.29454943386966,
+      "antes_ic": [
+        40.37514392262852,
+        46.21395494511081
+      ],
+      "despues": 44.47799641346462,
+      "despues_ic": [
+        41.24185397161082,
+        47.714138855318424
+      ],
+      "cambio_pct": 2.7334779898855857
+    },
+    {
+      "indicador": "Proporción que espera > 10 min",
+      "antes": 0.4219771580051828,
+      "antes_ic": [
+        0.40296625811649367,
+        0.44098805789387197
+      ],
+      "despues": 0.4500929263355524,
+      "despues_ic": [
+        0.42642296921354095,
+        0.4737628834575639
+      ],
+      "cambio_pct": 6.662864990911258
+    },
+    {
+      "indicador": "Utilización",
+      "antes": 0.7517212148091994,
+      "antes_ic": [
+        0.7420242197592056,
+        0.7614182098591932
+      ],
+      "despues": 0.7667835131804803,
+      "despues_ic": [
+        0.7554394557974634,
+        0.7781275705634972
+      ],
+      "cambio_pct": 2.0037080335831696
+    },
+    {
+      "indicador": "Tiempo en el sistema (min)",
+      "antes": 16.382741014872717,
+      "antes_ic": [
+        15.496149339664495,
+        17.26933269008094
+      ],
+      "despues": 17.49734095757905,
+      "despues_ic": [
+        16.35298417225677,
+        18.641697742901325
+      ],
+      "cambio_pct": 6.803500962961359
+    }
+  ],
+  "sensibilidad": [
+    {
+      "reparto_lento_muylento": "27,5 % / 27,5 % (base)",
+      "rho_teorico": 0.7741935483870969,
+      "espera_A_3_actual": 14.114821477730446,
+      "espera_E_4_fila_mas_corta": 1.1329226743848635
+    },
+    {
+      "reparto_lento_muylento": "35 % / 20 %",
+      "rho_teorico": 0.7666666666666667,
+      "espera_A_3_actual": 12.97439411047654,
+      "espera_E_4_fila_mas_corta": 1.0611949169316235
+    },
+    {
+      "reparto_lento_muylento": "20 % / 35 %",
+      "rho_teorico": 0.78125,
+      "espera_A_3_actual": 14.771477905662795,
+      "espera_E_4_fila_mas_corta": 1.1050558158325043
+    }
+  ]
+}
